@@ -1,0 +1,212 @@
+<html>
+<head>
+<title>JavaScript</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet"href="home.css">
+<a href="home.html"><img src="logonew.png" height="90px" style="margin-bottom:15px; margin-top:-10px; margin-left:5px;">
+
+<style>
+table, th, td {
+	border: 2px solid #000080;
+	border-collapse: collapse;
+	padding: 15px;
+	margin-top:-23%;
+	margin-left:auto; 
+    margin-right:auto;
+	font-family: Consolas;
+	text-align: center;
+}
+</style>
+<body>
+<div class="navbar">
+  <a href="home.html">Home</a>
+  <a href="inline.html">Inline Element</a>
+  <a href="block.html">Block Element</a>
+</div>
+<div class="ex1"><center>
+<h1><b>What is Inline Element?<br></b></h1></center>
+<hr>
+<div class = "text">
+Inline elements are those which only occupy the space bounded by the tags defining the element, <br>instead of breaking the flow of the content. 
+</div>
+<div class = "text2">
+Note: An inline element does not start on a new line and only takes up as much width as necessary.
+</div>
+
+<table>
+<tr style="font-size: 30px; text-align: center;">
+<td>EXAMPLE<br></td>
+<td>CODE</td>
+<td>OUTPUT</td>
+</tr>
+<tr>
+<td>#1:<br>
+<span style="color:mediumblue"><</span>a<span style="color:mediumblue">></span>
+</td>
+<td>
+<img src="1-inline.png" height="100%"></td>
+<td>
+<a href="https://www.google.com/" target="_blank">Click here to GOOGLE!</a>
+</td> </tr>
+
+<br>
+<tr>
+<td>#2:<br>
+<span style="color:mediumblue"><</span>abbr<span style="color:mediumblue">></span>
+</td><td>
+<img src="2-inline.png" height="100%"></td>
+<td>
+    <p><abbr title="Angelica Rose Tabrilla">ART</abbr> is abbreviation of my name</p>
+</td> </tr>
+
+<br>
+<tr>
+<td>#3:<br>
+<span style="color:mediumblue"><</span>button<span style="color:mediumblue">></span>
+</td><td>
+<img src="3-inline.png" height="100%"></td>
+<td>
+<button onclick="myFunction1()">Try it</button></td> </tr>
+
+<br>
+<tr>
+<td>#4:<br>
+<span style="color:mediumblue"><</span>em<span style="color:mediumblue">></span>
+</td><td>
+<img src="4-inline.png" height="100%"></td>
+<td>
+<p>I am the <em>Emphasized Text</em></p></td> </tr>
+
+<br>
+<tr>
+<td>#5:<br>
+<span style="color:mediumblue"><</span>img<span style="color:mediumblue">></span>
+</td><td>
+<img src="5-inline.png" height="100%"></td>
+<td>
+<img src="5-inline.jpeg" width="200px"></td> </tr>
+
+<br>
+<tr>
+<td>#6:<br>
+<span style="color:mediumblue"><</span>input<span style="color:mediumblue">></span>
+</td><td>
+<img src="6-inline.png" height="100%"></td>
+<td>
+Input text:
+<input type="text">
+</td> </tr>
+
+<br>
+<tr>
+<td>#7:<br>
+<span style="color:mediumblue"><</span>label<span style="color:mediumblue">></span>
+</td><td>
+<img src="7-inline.png" height="100%"></td>
+<td><h6>
+<input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">HTML</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">CSS</label><br></h6>
+</td> </tr>
+
+<br>
+<tr>
+<td>#8:<br>
+<span style="color:mediumblue"><</span>q<span style="color:mediumblue">></span>
+</td><td>
+<img src="8-inline.png" height="100%"></td>
+<td>
+<p>I am use for
+<q>short quotation.</q>
+</p></td> </tr>
+
+<br>
+<tr>
+<td>#9:<br>
+<span style="color:mediumblue"><</span>select<span style="color:mediumblue">></span>
+</td><td>
+<img src="9-inline.png" height="100%"></td>
+<td>
+Choose a car:
+  <select name="cars" id="cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="opel">Opel</option>
+    <option value="audi">Audi</option>
+  </select>
+  </td> </tr>
+
+<br>
+<tr>
+<td>#10:<br>
+<span style="color:mediumblue"><</span>small<span style="color:mediumblue">></span>
+</td><td>
+<img src="10-inline.png" height="100%"></td>
+<td>
+<p>This is some normal text.</p>
+<p><small>This is some smaller text.</small></p>
+</td> </tr>
+
+<br>
+<tr>
+<td>#11:<br>
+<span style="color:mediumblue"><</span>span<span style="color:mediumblue">></span>
+</td><td>
+<img src="11-inline.png" height="100%"></td>
+<td>
+<p>This is the <span style="color:darkolivegreen;font-weight:bold">use of the span </span><span style="color:blue;font-weight:bold"><</span>span<span style="color:blue;font-weight:bold">></span> </p>
+</td> </tr>
+
+<br>
+<tr>
+<td>#12:<br>
+<span style="color:mediumblue"><</span>strong<span style="color:mediumblue">></span>
+</td><td>
+<img src="12-inline.png" height="100%"></td>
+<td>
+<p>This text is normal.</p>
+<p><strong>This text is important!</strong></p></td> </tr>
+
+<br>
+<tr>
+<td>#13:<br>
+<span style="color:mediumblue"><</span>sub<span style="color:mediumblue">></span>
+</td><td>
+<img src="13-inline.png" height="100%"></td>
+<td>
+<p>This text contains <sub>subscript</sub> text.</p></td> </tr>
+
+<br>
+<tr>
+<td>#14:<br>
+<span style="color:mediumblue"><</span>sup<span style="color:mediumblue">></span>
+</td><td>
+<img src="14-inline.png" height="100%"></td>
+<td>
+<p>This text contains <sup>superscript</sup> text.</p>
+</td> </tr>
+
+<br>
+<tr>
+<td>#15:<br>
+<span style="color:mediumblue"><</span>textarea<span style="color:mediumblue">></span>
+</td><td>
+<img src="15-inline.png" height="100%"></td>
+<td>
+ <textarea rows="4" cols="50">
+This is the last in inline elements. I am use for text area.
+ </textarea>
+</td> </tr>
+
+</html>
+
+<script>
+function myFunction1() {
+alert('Welcome to Inline, I am the button');
+}
+</script>
+
+</html>

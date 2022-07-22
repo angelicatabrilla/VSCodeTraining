@@ -1,0 +1,26 @@
+.myName{
+    padding:10px;
+    color: crimson;
+    border: 5px dotted purple;
+    text-align: center;
+}
+
+.myZodiac{
+    font-size: 10px;
+    padding: 5px;
+    color: green;
+    border: 1px solid brown;
+    text-align: right;
+}
+
+.ariana{
+    font-size: 30px;
+    border-style:solid;
+    border-color: blue;
+    text-align: center;
+}
+.color{
+    padding: 10px;
+    color: pink;
+    border: 5px double violet;
+}

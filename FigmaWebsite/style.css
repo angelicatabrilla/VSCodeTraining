@@ -1,0 +1,328 @@
+
+/*NAVIGATION BAR*/
+.logonav {
+    background: #FFFFFF;
+}
+.navbar-brand {
+    width: 129px;
+    height: 38px;
+    margin-left: 30px;
+    margin-top: -20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #233847 !important;
+}
+.headertext { 
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #233847 !important;
+}
+
+.icons {
+    margin-top: 15%;
+}
+.fa_custom {
+    color: #233847 !important;
+}
+
+
+/*FIRST PHOTO*/
+.img-fluid {
+    width: 100%;
+}
+
+/*FIRST SECTION*/
+.hrline {
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.trusted {
+    color: #233847;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 5%;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 2%;
+}
+.sec1text {
+    color: #555E65;
+    padding-left: 25%;
+    padding-right: 25%;
+    font-size: 15px;
+    padding-bottom: 5%;
+}
+.btn {
+    align-content: center;
+}
+
+
+.container1 {
+    margin-top: 5%;
+}
+.left {
+    background-color: #233847;
+}
+.container1text {
+   color: white;
+   padding-left: 10%;
+   padding-right: 20%;
+   padding-top: 20%;
+   font-weight: bold;
+   font-weight: 700;
+   font-size: 26px;
+   letter-spacing: 1px;
+}
+.container1text2 {
+    color: white;
+    padding-left: 10%;
+    padding-right: 15%;
+    padding-top: 5%;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.section2 {
+    padding-bottom: 2%;
+}
+.servicetxt {
+    color: #233847;
+    font-weight: bold;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    padding-left: 10%;
+}
+.section2icons {
+    filter: invert(20%);
+}
+.verse {
+    padding-left: 10%;
+    padding-right: 3%;
+    font-size: 15px;
+}
+.learnmore {
+    margin-bottom: 5%;
+}
+
+/*FOOTER*/
+.footerbottom {
+    background-color: #233847;
+}
+.footertitletext{
+    color: white;
+    padding-left: 10%;
+    padding-right: 20%;
+    padding-top: 9%;
+    padding-bottom: 5%;
+    font-weight: bold;
+    font-weight: 700;
+    font-size: 27px;
+    letter-spacing: 1px;
+}
+.btn {
+    border-radius: 0 !important;
+}
+
+.footerservicetxt {
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+.footservicetxt {
+    color: #9CAAB4;
+    font-size: 15px;
+}
+
+.footertext {
+    font-style: normal;
+    font-size: 16px;
+    color: #9CAAB4 !important;
+}
+.copyright2022 {
+    color: #9CAAB4;
+    margin-top: 8%;
+    margin-left: -55% !important;
+}
+
+
+.started { /*button*/
+    margin-left: 10%;
+}
+
+.socials {
+    color: #9CAAB4;
+    text-decoration: none;
+    margin-right: 15px;
+}
+.socials:hover {
+    color: #9CAAB4;
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+
+
+
+/*RESPONSIVENESS*/
+@media only screen and (max-width: 1200px) {
+    .headertext {
+        text-align: center;
+    }
+    .trusted {
+        font-size: 25px;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    .sec1text {
+        padding-left: 15%;
+        padding-right: 15%;
+        font-size: 15px;
+    }
+    .container1text {
+        font-size: 20px;
+        padding-top: 10%;
+    }
+    .container1text2 {
+        font-size: 13px;
+    }
+    .servicetxt {
+        font-size: 20px;
+        padding-left: 20%;
+    }
+    .verse {
+        padding-left: 20%;
+        padding-right: 2%;
+        font-size: 13px;
+    }
+    .footertitletext{
+        font-size: 25px;
+        padding-top: 13%;
+    }
+    .footerservicetxt {
+        font-size: 15px;
+        line-height: normal;
+    }
+    .footservicetxt {
+        font-size: 12px;
+    }
+    .footertext {
+        font-size: 16px;
+    }
+    .copyright2022 {
+        margin-top: 5%;
+        margin-left: 0 !important;
+    }
+}
+
+    /*MOBILE PHONES*/
+@media (max-device-width: 480px) { 
+    .container1text {
+        font-size: 11px;
+        padding-top: 5%;
+        padding-right: 7%;
+        padding-left: 5%;
+    }
+    .container1text2 {
+        font-size: 6px;
+        padding-right: 7%;
+        padding-left: 5%;
+    }
+    .section2icons {
+       width: 15%;
+       padding-top: 5%;
+    }
+    .servicetxt {
+        font-size: 15px;
+        padding-left: 20%;
+        line-height: normal;
+    }
+    .verse {
+        padding-right: 0;
+        font-size: 10px;
+    }
+    .footertitletext{
+        font-size: 15px;
+        padding-top: 35%;
+        padding-bottom: 20%;
+        padding-right: 5%;
+    }
+    .footerservicetxt {
+        font-size: 12px;
+        line-height: normal;
+        text-align: center;
+    }
+    .btn {
+        font-size: 12px !important;
+    }
+    .footservicetxt {
+        font-size: 9px;
+    }
+    .footertext {
+        font-size: 16px;
+    }
+    .copyright2022 {
+        font-size: 10px;
+        margin-top: 5%;
+        margin-left: 0 !important;
+    }
+    .socials {
+        margin-right: 5px;   
+    }
+}
+
+/*SAMSUNG S8*/
+@media (max-device-width: 500px) and (max-device-height: 800px){ 
+    .container1text {
+        font-size: 10px;
+    }
+    .container1text2 {
+        font-size: 7px;
+        padding-right: 2%;
+    }
+}
+/*SURFACE DUO*/
+@media (device-width: 540px) and (max-height: 720px){ 
+    .container1text {
+        font-size: 12px;
+        padding-right: 5%;
+    }
+    .container1text2 {
+        font-size: 10px;
+        padding-right: 5%;
+    }
+    .footertitletext{
+      padding-right: 5%;
+    }
+}
+
+/*GALAXY FOLD*/
+@media (device-width: 280px) and (max-height: 655px){ 
+    .container1text {
+        font-size: 8px;
+        line-height: normal;
+        padding-right: 1%;
+    }
+    .container1text2 {
+        font-size: 5px;
+        padding-right: 1%;
+    }
+    .verse {
+        font-size: 7px;
+    }
+    .socials {
+        margin-right: 0;
+    }
+    .footertitletext{
+        font-size: 15px;
+    }
+}

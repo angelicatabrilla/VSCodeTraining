@@ -1,0 +1,155 @@
+.navbar {
+    vertical-align: super;
+    font-size: 20px;
+    letter-spacing: 1px;
+    background-color: rgb(118,160,209);
+}
+.navbar-brand{
+    color: black;
+    width: 30px;
+    font-family: cursive;
+}
+.navbar-brand:hover {
+    color: black;
+    filter: invert(100%);
+    font-weight: bold;
+}
+
+/*SECTION*/
+.container{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+    background-color: rgb(238,238,238);
+    font-family: cursive;
+ }
+.services{
+    text-align: left;
+    margin-left: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 30px;
+    color: rgb(1,31,75);
+    letter-spacing: 1px;
+}
+.services:hover {
+    text-align: center;
+    font-size: 50px;   
+}
+.p-4 {
+    background-color:rgb(179,205,224);
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.rounded:hover { 
+    transform: scale(2);
+    float: left; /* Important */
+}
+.servicetxt {
+    color:  black;
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 20%;
+}
+.verse {
+    padding-left: 20%;
+    padding-right: 10%;
+    font-size: 15px;
+}
+
+
+/*OUR TEAM*/
+.team{
+    text-align: left;
+    margin-left: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 30px;
+    color: rgb(1,31,75);
+    letter-spacing: 1px;
+}
+.round {
+    border-radius: 50%;
+}
+.round:hover {
+    /* transform: scale(4); */
+    transform: scale(1.5);
+    transition: all 0.25s ease-in-out;
+}
+
+.rowtext {
+    padding-left: 30px;
+    text-align: left;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+.rowtext2 {
+    padding-left: 30px;
+    font-style: italic;
+    font-size: 15px;
+    color: rgb(31, 41, 131);
+}
+.verse2 {
+    padding-left: 20%;
+    padding-right: 10%;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.verse2:hover {
+    font-weight: bold;
+    color: rgb(114, 22, 53);
+ }
+ 
+
+
+/*MODAL AND CAROUSEL*/ 
+.modal {
+    background-color: rgba(24, 69, 77, 0.4) !important; 
+}
+.modal-header {
+    background-color: rgb(22, 80, 119);
+}
+.modal-title {
+    color: white;
+}
+.modal-body {
+    background-color: rgb(118,160,209);
+}
+.modal-footer {
+    background-color: rgb(22, 80, 119);
+}
+h3 {
+    color: rgb(120, 167, 199);
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.678);
+}
+
+.carousel-inner {
+    border: 3px solid rgb(23, 2, 99);
+    border-style: ridge;
+}
+
+
+/*FOOTER*/
+.card-body {
+    background-color: rgb(118,160,209);
+    font-family: cursive;
+}
+.card-body:hover {
+    background-color: white;
+}
+.card-text {
+    color: black;
+    text-align: center;
+}
+.card-text:hover {
+    color:  rgb(1,31,75);
+    font-weight: bold;
+}
+
